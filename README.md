@@ -9,10 +9,13 @@
         - 0204 Editor de Plugins - Instalando o Live Server, Prettier e ajustando o settings.json do vscode.
         - 0205 Editor Atalhos - Alguns atalhos que vão me ajudar no decorrer dos estudos.
         - 0206 Link Caminhos - Diferença de link relativo e absoluto.
-        - 0207 - CSS Básico - Explicação do CSS e uso Básico.
+        - 0207 CSS Básico - Explicação do CSS e uso Básico.
+        - 0208 CSS Seletores - Algumas distinções entre classes e ids.
+        - 0209 HTML Exercício - Exercício Cinema.
 
 ### Css.
     - Môdolo 02
         - 0207 CSS Básico - Explicação do CSS e uso Básico.
-
+        - 0208 CSS Seletores - Mostrando as diferenças entre os seletores id e class.
+        - 0209 HTML Exercício - Exercício de fixação do conteúdo.
 ### JavaScript

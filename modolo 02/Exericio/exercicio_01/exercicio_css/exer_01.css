@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+.titulo {
+    font-size: 42px;
+    color: #000000e1;
+}
+.rj a {
+    font-size: 30px;
+    color: #9a9c10;
+}
+
+.sp a {
+    font-size: 30px;
+    color: #b60404;
+}
+
+.hoje {
+    font-size: 20px;
+    color: darkred;
+}
+.amanha {
+    font-size: 20px;
+    color: darkblue;
+}
