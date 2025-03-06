@@ -26,5 +26,5 @@
 - 0210 Background e Cores - Mostrando o atributo de background e background-color, mudar a cor de fundo.
 - 0211 Box Model 1 - width: é a largura do conteúdo da caixa, padding: é a distância entre o conteúdo e a borda, border: é a borda da caixa, margin: é a distância entre a borda e o elemento vizinho.
 - 0213 Display - display: inline-block Não inicia uma nova linha, permitindo que outros elementos fiquem ao lado dele, como um elemento inline.
-- 0214 Display Exercício - text-align: center centralizar textos de acorco com o pretendido.
+- 0214 Display Exercício - text-align: center centralizar textos de acorco com o pretendido. border-radius: para aredondar as informações.
 ## JavaScript.
