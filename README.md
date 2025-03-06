@@ -18,6 +18,8 @@
 - 0212 Estilos do Browser - Mostrando que alguns navegadores já vem com stylos básicos ativos por padrão.
 - 0213 Display - explicação sobre o posicionamento.
 - 0214 Display Exercício - Um bom exercício para começar com os posicionamento de algumas estruturas básicas.
+- 0216 Imagens 1 - Testando a tag de imagem.
+- 0216 Imagens 2 - Mostrando dois sites para ajudar com imagens.
 ## CSS.
 
 #### Môdolo 02
@@ -27,4 +29,5 @@
 - 0211 Box Model 1 - width: é a largura do conteúdo da caixa, padding: é a distância entre o conteúdo e a borda, border: é a borda da caixa, margin: é a distância entre a borda e o elemento vizinho.
 - 0213 Display - display: inline-block Não inicia uma nova linha, permitindo que outros elementos fiquem ao lado dele, como um elemento inline.
 - 0214 Display Exercício - text-align: center centralizar textos de acorco com o pretendido. border-radius: para aredondar as informações.
+- 0216 Imagens 1 - o atributo max-width: 100% repsita o elemento pai, width: 100px numa div, a img vai respeitar isso.
 ## JavaScript.

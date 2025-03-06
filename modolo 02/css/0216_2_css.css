@@ -1,0 +1,19 @@
+img {
+    max-width: 100%;
+    width: 500px;
+    display: block;
+}
+p {
+    font-size: 1.5em;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-family: arial;
+}
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+}

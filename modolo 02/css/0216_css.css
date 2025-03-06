@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div_1, img{
+    max-width: 100%;
+    display:block;
+}
+img {
+    max-width: 100%;
+    /* display:block; */
+}
+
+div {
+    width: 200px;
+}
