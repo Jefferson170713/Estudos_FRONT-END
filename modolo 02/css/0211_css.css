@@ -1,0 +1,24 @@
+.titulo {
+    font-size: 32px;
+    color: darkred;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.lista li{
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    color: rgb(46, 45, 45);
+}

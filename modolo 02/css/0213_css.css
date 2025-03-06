@@ -1,0 +1,31 @@
+.link {
+    text-decoration: none;
+    color: slateblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+span {
+    border: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+a {
+    padding: 20px;
+}
+
+p {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+.box {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+.inline-block {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+
+}
