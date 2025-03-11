@@ -24,6 +24,7 @@
 #### __Módulo 03__
 - __0301 Top, Right, Bottom, Left__ - Mostra como podemos usar esses atributos em css e usar ao nosso favor. podemos usar no `padding` e no `margin`, mas sem esquecer de colocar o atributo `display: inline-block` se não não vai funcionar as margens externas.
 - __0302 Grid Columns 1__ - preparando as informações como html e css parauso do `grid`.
+- __0302 Grid Columns 2__ - Com o uso do `grid` podemos dividir a tela de várias formas.
 ## CSS. 
 
 #### __Módulo 02__.
@@ -36,5 +37,6 @@
 - __0216 Imagens 1__ - o atributo `max-width: 100%` repsita o elemento pai, `width: 100px` numa div, a img vai respeitar isso.
 #### __Módulo 03__.
 - __0301 Top, Right, Bottom, Left__ - Podemos usar esses quatro atributos tanto com `padding` e com `margin` mesclando seus nomes exemplo: `padding-top`.
+- __0302 Grid Columns 1 e 2__ - : A nova pripriedade `grid`, usando os atributos `diplay: grid` -> `grid-template-columns: 1fr 2fr` ele difvide a tela proporcionale `grid-gap` é o espaçamento entre os elementos que queremos separar.
 
 ## JavaScript.
