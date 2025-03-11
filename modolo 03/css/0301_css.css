@@ -20,3 +20,13 @@
     margin-bottom: 20px;
     margin-left: 50px;
 }
+.paginas {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+.botao {
+    color: white;
+    text-decoration: none;
+}
