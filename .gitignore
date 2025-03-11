@@ -1,5 +1,7 @@
 # Ignorar arquivos .png
 *.png
+*.jpg
+
 
 # Ignorar arquivos .svg
 *.svg

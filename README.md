@@ -1,33 +1,36 @@
-# Estudos_FRONT-END
+# __Estudos_FRONT-END__.
 
-## HTML.
+## __HTML__.
+
+#### __Môdolo 02__
+- __0201 Tag__ - Explicação de o que é uma Tag.
+- __0202 Tags Iniciais__ - Explicação das tags mais comuns.
+- __0203 Estrutura HTML__ - Tags de informação para os navegadores.
+- __0204 Editor de Plugins__ - Instalando o Live Server, Prettier e ajustando o settings.json do vscode.
+- __0205 Editor Atalhos__ - Alguns atalhos que vão me ajudar no decorrer dos estudos.
+- __0206 Link Caminhos__ - Diferença de link relativo e absoluto.
+- __0207 CSS Básico__ - Explicação do CSS e uso Básico.
+- __0208 CSS Seletores__ - Algumas distinções entre classes e ids.
+- __0209 HTML Exercício__ - Exercício Cinema.
+- __0210 Background e Cores__ - Mostrando o atributo de background e background-color.
+- __0211 Box Model 1__ - Explicação do que é um box model e como isso é usado para sites.
+- __0211 Box Model 2__ - Apresentação da div ou caixa comumente chamada.
+- __0212 Estilos do Browser__ - Mostrando que alguns navegadores já vem com stylos básicos ativos por padrão.
+- __0213 Display__ - explicação sobre o posicionamento.
+- __0214 Display Exercício__ - Um bom exercício para começar com os posicionamento de algumas estruturas básicas.
+- __0216 Imagens 1__ - Testando a tag de imagem.
+- __0216 Imagens 2__ - Mostrando dois sites para ajudar com imagens.
+
+#### __Môdolo 03__
+- __0301 Top, Right, Bottom, Left__ - Mostra como podemos usar esses atributos em css e usar ao nosso favor. podemos usar no `padding` e no `margin`, mas sem esquecer de colocar o atributo `display: inline-block` se não não vai funcionar as margens externas.
+## CSS. 
 
 #### Môdolo 02
-- 0201 Tag - Explicação de o que é uma Tag.
-- 0202 Tags Iniciais - Explicação das tags mais comuns.
-- 0203 Estrutura HTML - Tags de informação para os navegadores.
-- 0204 Editor de Plugins - Instalando o Live Server, Prettier e ajustando o settings.json do vscode.
-- 0205 Editor Atalhos - Alguns atalhos que vão me ajudar no decorrer dos estudos.
-- 0206 Link Caminhos - Diferença de link relativo e absoluto.
-- 0207 CSS Básico - Explicação do CSS e uso Básico.
-- 0208 CSS Seletores - Algumas distinções entre classes e ids.
-- 0209 HTML Exercício - Exercício Cinema.
-- 0210 Background e Cores - Mostrando o atributo de background e background-color.
-- 0211 Box Model 1 - Explicação do que é um box model e como isso é usado para sites.
-- 0211 Box Model 2 - Apresentação da div ou caixa comumente chamada.
-- 0212 Estilos do Browser - Mostrando que alguns navegadores já vem com stylos básicos ativos por padrão.
-- 0213 Display - explicação sobre o posicionamento.
-- 0214 Display Exercício - Um bom exercício para começar com os posicionamento de algumas estruturas básicas.
-- 0216 Imagens 1 - Testando a tag de imagem.
-- 0216 Imagens 2 - Mostrando dois sites para ajudar com imagens.
-## CSS.
-
-#### Môdolo 02
-- 0207 CSS Básico - color: mudar a cor do texto, text-decoration none tira o underline dos links, font-size: mudar o tamanho da fonte.
-- 0208 CSS Seletores - Em css a diferença entre id="teste_1" e class="teste_1", #teste_1 e .teste_1.
-- 0210 Background e Cores - Mostrando o atributo de background e background-color, mudar a cor de fundo.
-- 0211 Box Model 1 - width: é a largura do conteúdo da caixa, padding: é a distância entre o conteúdo e a borda, border: é a borda da caixa, margin: é a distância entre a borda e o elemento vizinho.
-- 0213 Display - display: inline-block Não inicia uma nova linha, permitindo que outros elementos fiquem ao lado dele, como um elemento inline.
-- 0214 Display Exercício - text-align: center centralizar textos de acorco com o pretendido. border-radius: para aredondar as informações.
-- 0216 Imagens 1 - o atributo max-width: 100% repsita o elemento pai, width: 100px numa div, a img vai respeitar isso.
+- __0207 CSS Básico__ - color: mudar a cor do texto, `text-decoration none` tira o underline dos links, `font-size`: mudar o tamanho da fonte.
+- __0208 CSS Seletores__ - Em css a diferença entre `id="teste_1"` e `class="teste_1"`, `#teste_1 e .teste_1`.
+- __0210 Background e Cores__ - Mostrando o atributo de `background` e `background-color`, mudar a cor de fundo.
+- __0211 Box Model 1__ - `width`: é a largura do conteúdo da caixa, `padding`: é a distância entre o conteúdo e a borda, `border`: é a borda da caixa, margin: é a distância entre a borda e o elemento vizinho.
+- __0213 Display__ - `display: inline-block` Não inicia uma nova linha, permitindo que outros elementos fiquem ao lado dele, como um elemento inline.
+- __0214 Display Exercício__ - `text-align: center` centralizar textos de acorco com o pretendido. `border-radius`: para aredondar as informações.
+- __0216 Imagens 1__ - o atributo `max-width: 100%` repsita o elemento pai, `width: 100px` numa div, a img vai respeitar isso.
 ## JavaScript.
