@@ -1,7 +1,7 @@
 # __Estudos_FRONT-END__.
-
+---
 ## __HTML__.
-
+---
 #### __Módulo 02__.
 - __0201 Tag__ - Explicação de o que é uma Tag.
 - __0202 Tags Iniciais__ - Explicação das tags mais comuns.
@@ -20,13 +20,15 @@
 - __0214 Display Exercício__ - Um bom exercício para começar com os posicionamento de algumas estruturas básicas.
 - __0216 Imagens 1__ - Testando a tag de imagem.
 - __0216 Imagens 2__ - Mostrando dois sites para ajudar com imagens.
-
+---
 #### __Módulo 03__
 - __0301 Top, Right, Bottom, Left__ - Mostra como podemos usar esses atributos em css e usar ao nosso favor. podemos usar no `padding` e no `margin`, mas sem esquecer de colocar o atributo `display: inline-block` se não não vai funcionar as margens externas.
 - __0302 Grid Columns 1__ - preparando as informações como html e css parauso do `grid`.
 - __0302 Grid Columns 2__ - Com o uso do `grid` podemos dividir a tela de várias formas.
+- __0303 Align e Justify Content__ - O uso do grip e justify content para ajustar os itens.
+---
 ## CSS. 
-
+---
 #### __Módulo 02__.
 - __0207 CSS Básico__ - color: mudar a cor do texto, `text-decoration none` tira o underline dos links, `font-size`: mudar o tamanho da fonte.
 - __0208 CSS Seletores__ - Em css a diferença entre `id="teste_1"` e `class="teste_1"`, `#teste_1 e .teste_1`.
@@ -35,8 +37,9 @@
 - __0213 Display__ - `display: inline-block` Não inicia uma nova linha, permitindo que outros elementos fiquem ao lado dele, como um elemento inline.
 - __0214 Display Exercício__ - `text-align: center` centralizar textos de acorco com o pretendido. `border-radius`: para aredondar as informações.
 - __0216 Imagens 1__ - o atributo `max-width: 100%` repsita o elemento pai, `width: 100px` numa div, a img vai respeitar isso.
+---
 #### __Módulo 03__.
 - __0301 Top, Right, Bottom, Left__ - Podemos usar esses quatro atributos tanto com `padding` e com `margin` mesclando seus nomes exemplo: `padding-top`.
 - __0302 Grid Columns 1 e 2__ - : A nova pripriedade `grid`, usando os atributos `diplay: grid` -> `grid-template-columns: 1fr 2fr` ele difvide a tela proporcionale `grid-gap` é o espaçamento entre os elementos que queremos separar.
-
+---
 ## JavaScript.
