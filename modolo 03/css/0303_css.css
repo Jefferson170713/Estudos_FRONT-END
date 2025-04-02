@@ -64,3 +64,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+.compra:hover {
+    background-color: rgb(3, 156, 3);
+    color: #ffffff;
+}
