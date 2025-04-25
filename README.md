@@ -26,6 +26,7 @@
 - __0302 Grid Columns 1__ - preparando as informações como html e css parauso do `grid`.
 - __0302 Grid Columns 2__ - Com o uso do `grid` podemos dividir a tela de várias formas.
 - __0303 Align e Justify Content__ - O uso do grip e justify content para ajustar os itens.
+- __0304 Grid Column 1 e 2__ - Aprendendo a dividir o grid layout.
 ---
 ## CSS. 
 ---
@@ -40,6 +41,8 @@
 ---
 #### __Módulo 03__.
 - __0301 Top, Right, Bottom, Left__ - Podemos usar esses quatro atributos tanto com `padding` e com `margin` mesclando seus nomes exemplo: `padding-top`.
-- __0302 Grid Columns 1 e 2__ - : A nova pripriedade `grid`, usando os atributos `diplay: grid` -> `grid-template-columns: 1fr 2fr` ele difvide a tela proporcionale `grid-gap` é o espaçamento entre os elementos que queremos separar.
+- __0302 Grid Columns 1 e 2__ - A nova pripriedade `grid`, usando os atributos `diplay: grid` -> `grid-template-columns: 1fr 2fr` ele difvide a tela proporcionale `grid-gap` é o espaçamento entre os elementos que queremos separar.
+- __0303 Grid columns__ - Aprendemos a dividir o grid de tela em vários, usando `display: grid;` e `grid-template_columns: 1fr 1fr 1fr 1fr`(4) no *css*. 
+ __0304 Grid Column 1 e 2__ - Posso fazer algo semelhante a aula 0303, porém eu posos posicionar dentro do grid, como indo nas classes e alterando o grid column.
 ---
 ## JavaScript.
