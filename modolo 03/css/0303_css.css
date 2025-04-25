@@ -68,3 +68,18 @@
     background-color: rgb(3, 156, 3);
     color: #ffffff;
 }
+.paginas {
+    padding: 10px 30px 10px 30px;
+    background-color: #cac8c8f7;
+}
+.paginas a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #ecf007;
+    border: #333 1px solid;
+    padding: 3px;
+}
