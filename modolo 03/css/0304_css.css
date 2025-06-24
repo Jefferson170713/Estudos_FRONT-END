@@ -89,6 +89,28 @@ img {
 .imagem{
     display: block;
 }
+.paginas {
+    padding: 10px 30px 10px 30px;
+    background-color: #cac8c8f7;
+}
+.botao_anterior {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(180, 15, 15);
+    border-radius: 5px;
+}
+.botao_proximo {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    border-radius: 5px;
+}
 .grid_1 {
     display: grid;
     gap: 10px;

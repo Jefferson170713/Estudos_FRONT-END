@@ -23,7 +23,7 @@
 ---
 #### __Módulo 03__
 - __0301 Top, Right, Bottom, Left__ - Mostra como podemos usar esses atributos em css e usar ao nosso favor. podemos usar no `padding` e no `margin`, mas sem esquecer de colocar o atributo `display: inline-block` se não não vai funcionar as margens externas.
-- __0302 Grid Columns 1__ - preparando as informações como html e css parauso do `grid`.
+- __0302 Grid Columns 1__ - preparando as informações como html e css para uso do `grid`.
 - __0302 Grid Columns 2__ - Com o uso do `grid` podemos dividir a tela de várias formas.
 - __0303 Align e Justify Content__ - O uso do grip e justify content para ajustar os itens.
 - __0304 Grid Column 1 e 2__ - Aprendendo a dividir o grid layout.

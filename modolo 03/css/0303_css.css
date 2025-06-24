@@ -32,9 +32,9 @@
     background-color: rgb(194, 194, 194);
 }
 
-.item:hover {
+/* .item:hover {
     background-color: #f2f2f2;
-}
+} */
 .item p {
     /* font-size: 20px; */
     color: #333;
@@ -57,21 +57,51 @@
     border-radius: 10px;
     color: white;
 }
+.compra:hover {
+    /* background-color: rgb(3, 156, 3);
+    color: #ffffff; */
+    background-color: #ffffff;
+    color: rgb(3, 156, 3);
+}
 
 .grid_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
-.compra:hover {
-    background-color: rgb(3, 156, 3);
-    color: #ffffff;
+.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 5px;
+}
+.grid_3 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 5px;
 }
 .paginas {
     padding: 10px 30px 10px 30px;
     background-color: #cac8c8f7;
 }
-.paginas a {
+.botao_anterior {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(180, 15, 15);
+    border-radius: 5px;
+}
+.botao_proximo {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+/* .paginas a {
     text-decoration: none;
     color: #333;
     font-size: 20px;
@@ -81,4 +111,4 @@
     background-color: #ecf007;
     border: #333 1px solid;
     padding: 3px;
-}
+} */
