@@ -1,0 +1,49 @@
+/* A partir daqui todos os elementos vão se expandir como grid quando eu colocar grid */
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.foto {
+    grid-column: 1 / -1;
+}
+body {
+    font-family: arial;
+    margin: 40px
+}
+h1, p {
+    margin: 0px;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1;
+}
+p, span {
+    font-size: 20px
+}
+img {
+    max-width: 100%;
+    border: 16px;
+}
+.titulo_aula {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin: 10px 10px;
+}
+
+.comprar {
+    background: #a8f;
+    color: #105;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.preco { 
+    background: #ddf;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
