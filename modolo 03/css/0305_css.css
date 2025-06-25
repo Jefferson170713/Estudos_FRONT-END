@@ -1,31 +1,27 @@
 /* A partir daqui todos os elementos vão se expandir como grid quando eu colocar grid */
-.grid {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-.foto {
-    grid-column: 1 / -1;
-}
 body {
     font-family: arial;
     margin: 40px
 }
+
 h1, p {
     margin: 0px;
 }
+
 h1 {
     font-size: 40px;
     line-height: 1;
 }
+
 p, span {
     font-size: 20px
 }
+
 img {
     max-width: 100%;
     border: 16px;
 }
+
 .titulo_aula {
     background-color: #f2f2f2;
     padding: 10px;
@@ -39,11 +35,72 @@ img {
     background: #a8f;
     color: #105;
     padding: 10px 20px;
+    margin: 0px;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 20px;
 }
+
+.grid {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center;
+    place-items: center; */
+}
+
+.foto {
+    grid-column: 1  / -1;
+}
+
+.preco {
+    place-self: end;
+}
+
+.preco {
+    grid-column: 1  / -1;
+}
+   
+.descricao {
+    grid-column: 1 / -1;
+    place-self: right;
+    /* text-align: right; */
+} 
+.comprar {
+    grid-column: 1 / -1;
+    place-self: end;
+    text-align: center;
+} 
 .preco { 
     background: #ddf;
     padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.paginas {
+    padding: 10px 30px 10px 30px;
+    background-color: #cac8c8f7;
+}
+
+.botao_anterior {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(180, 15, 15);
+    border-radius: 5px;
+}
+
+.botao_proximo {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
     border-radius: 5px;
 }

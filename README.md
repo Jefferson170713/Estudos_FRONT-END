@@ -27,6 +27,7 @@
 - __0302 Grid Columns 2__ - Com o uso do `grid` podemos dividir a tela de várias formas.
 - __0303 Align e Justify Content__ - O uso do grip e justify content para ajustar os itens.
 - __0304 Grid Column 1 e 2__ - Aprendendo a dividir o grid layout.
+- __0305 Grid Column 1 + Grid Column 2__ - Posicionamento o grid layout com align e justify itemns. Com isso eu consigo posicionar os itens dentro do grid, como por exemplo: `grid-column: 1 / 3` que vai ocupar a coluna 1 e 2.
 ---
 ## CSS. 
 ---
