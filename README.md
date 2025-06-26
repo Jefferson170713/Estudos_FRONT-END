@@ -28,6 +28,13 @@
 - __0303 Align e Justify Content__ - O uso do grip e justify content para ajustar os itens.
 - __0304 Grid Column 1 e 2__ - Aprendendo a dividir o grid layout.
 - __0305 Grid Column 1 + Grid Column 2__ - Posicionamento o grid layout com align e justify itemns. Com isso eu consigo posicionar os itens dentro do grid, como por exemplo: `grid-column: 1 / 3` que vai ocupar a coluna 1 e 2.
+- __0306 Grid Template Rows__ - Aprendendo a controlar as linhas do grid com `grid-template-rows`, definindo quantas linhas o grid terá e o tamanho de cada uma.  
+  Com `grid-template-columns` você define quantas colunas o grid terá e o tamanho de cada coluna.  
+  Usando `place-items: start` é possível alinhar todos os itens ao início do grid.  
+  Também é possível posicionar elementos em locais específicos do grid usando `grid-column` e `grid-row`, por exemplo:  
+  - Definir que um elemento ocupe todas as colunas,
+  - Que outro fique apenas em uma coluna específica,
+  - Ou que um elemento ocupe várias linhas dentro de uma coluna.
 ---
 ## CSS. 
 ---
