@@ -35,6 +35,13 @@
   - Definir que um elemento ocupe todas as colunas,
   - Que outro fique apenas em uma coluna específica,
   - Ou que um elemento ocupe várias linhas dentro de uma coluna.
+  __No arquivo 0306_2.html__ A div com a classe `.info` foi configurada como um novo grid dentro do grid principal.  
+  - `display: grid;` faz com que os elementos internos da `.info` também sejam organizados em grid.
+  - `place-items: start;` alinha todos os itens ao início tanto na horizontal quanto na vertical.
+  - `gap: 20px;` adiciona um espaçamento de 20px entre os itens internos.
+  - `place-self: start;` faz com que a própria `.info` fique alinhada ao início da célula do grid principal onde ela está.
+
+  Isso permite um controle mais preciso do alinhamento e espaçamento dos elementos dentro da `.info`, deixando o layout mais organizado.
 ---
 ## CSS. 
 ---
