@@ -44,6 +44,11 @@
 - __0307 Flexbox 1__ - Introdução ao Flexbox, uma técnica de layout que permite organizar elementos de forma flexível e responsiva.
   - Utiliza o `display: flex` para organizar os elementos em linha (um ao lado do outro).  
   - Com `flex-wrap: wrap`, os itens que não couberem na largura do container automaticamente "quebram" para a próxima linha, tornando o layout mais responsivo e adaptável a diferentes tamanhos de tela.
+- __0307 Flexbox 2__ - Aprendendo a usar o `flex: 1` para fazer com que os itens dentro de um container flexível ocupem todo o espaço disponível, dividindo-o igualmente entre eles.
+  - Isso facilita criar layouts onde os elementos crescem ou diminuem proporcionalmente para preencher o container.
+- __0307 Flexbox 3__ - Demonstra a diferença entre Flexbox e Grid para organização de elementos na tela: Abra `0307_3.html` no navegador para ver o exemplo expandindo o conteúdo e contraindo a janela.
+  - `.flex` utiliza `display: flex`, permitindo alinhar itens em linha, com quebra automática para a próxima linha (`flex-wrap: wrap`) e espaçamento entre eles (`gap: 20px`). É ideal para distribuir elementos de forma flexível em uma direção.
+  - `.grid` utiliza `display: grid` e `grid-template-columns: repeat(auto-fit, 300px)`, criando uma grade onde cada coluna tem 300px e o número de colunas se ajusta automaticamente ao tamanho da tela. É ótimo para criar layouts em grade, onde os itens se reorganizam conforme o espaço
 ---
 ## CSS. 
 ---

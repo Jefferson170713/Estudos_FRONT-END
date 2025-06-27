@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/0307_3_css.css">
+    <title>0307 Flexbox 3</title>
+</head>
+<body>
+    <h1 class="titulo_aula">0307 Flexbox 3</h1>
+    <p class="texto_aula">
+        Use ambos no seu layout, o `flex` e o `grid`, para organizar os elementos de forma flexível e responsiva.
+        <br>
+        Eles reolvem problemas diferentes. O grid é ótimo para layouts de grade, enquanto o flex é ideal para alinhar itens em linha ou coluna.
+    </p>
+    <h1>Exemplo demonstra a diferença entre Flexbox e Grid para organização de elementos na tela:</h1>
+    <ul>
+        <li><strong>`.flex`</strong> utiliza `display: flex`, permitindo alinhar itens em linha, com quebra automática para a próxima linha (`flex-wrap: wrap`) e espaçamento entre eles (`gap: 20px`). É ideal para distribuir elementos de forma flexível em uma direção.</li>
+        <li><strong>`.grid`</strong> utiliza `display: grid` e `grid-template-columns: repeat(auto-fit, 300px)`, criando uma grade onde cada coluna tem 300px e o número de colunas se ajusta automaticamente ao tamanho da tela. É ótimo para criar layouts em grade, onde os itens se reorganizam conforme o espaço disponível.</li>
+    </ul>
+    <div class="flex">
+        <h2>O senhor dos anéis</h2>
+        <h2>O Hobbit</h2>
+        <h2>Black Mirror</h2>
+        <h2>Halo</h2>
+    </div>
+    <div class="grid">
+        <h2>O senhor dos anéis</h2>
+        <h2>O Hobbit</h2>
+        <h2>Black Mirror</h2>
+        <h2>Halo</h2>
+    </div>
+    <div class="paginas">
+        <a href="./0307_2.html" class="botao_anterior">Página anterior</a>
+        <a href="./0308.html" class="botao_proximo">Próxima Página</a>
+    </div>
+</body>
+</html>
