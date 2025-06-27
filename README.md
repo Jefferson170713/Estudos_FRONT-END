@@ -29,9 +29,9 @@
 - __0304 Grid Column 1 e 2__ - Aprendendo a dividir o grid layout.
 - __0305 Grid Column 1 + Grid Column 2__ - Posicionamento o grid layout com align e justify itemns. Com isso eu consigo posicionar os itens dentro do grid, como por exemplo: `grid-column: 1 / 3` que vai ocupar a coluna 1 e 2.
 - __0306 Grid Template Rows__ - Aprendendo a controlar as linhas do grid com `grid-template-rows`, definindo quantas linhas o grid terá e o tamanho de cada uma.  
-  Com `grid-template-columns` você define quantas colunas o grid terá e o tamanho de cada coluna.  
-  Usando `place-items: start` é possível alinhar todos os itens ao início do grid.  
-  Também é possível posicionar elementos em locais específicos do grid usando `grid-column` e `grid-row`, por exemplo:  
+  - Com `grid-template-columns` você define quantas colunas o grid terá e o tamanho de cada coluna.  
+  - Usando `place-items: start` é possível alinhar todos os itens ao início do grid.  
+  - Também é possível posicionar elementos em locais específicos do grid usando `grid-column` e `grid-row`, por exemplo:  
   - Definir que um elemento ocupe todas as colunas,
   - Que outro fique apenas em uma coluna específica,
   - Ou que um elemento ocupe várias linhas dentro de uma coluna.
@@ -40,8 +40,10 @@
   - `place-items: start;` alinha todos os itens ao início tanto na horizontal quanto na vertical.
   - `gap: 20px;` adiciona um espaçamento de 20px entre os itens internos.
   - `place-self: start;` faz com que a própria `.info` fique alinhada ao início da célula do grid principal onde ela está.
-
-  Isso permite um controle mais preciso do alinhamento e espaçamento dos elementos dentro da `.info`, deixando o layout mais organizado.
+  - Isso permite um controle mais preciso do alinhamento e espaçamento dos elementos dentro da `.info`, deixando o layout mais organizado.
+- __0307 Flexbox 1__ - Introdução ao Flexbox, uma técnica de layout que permite organizar elementos de forma flexível e responsiva.
+  - Utiliza o `display: flex` para organizar os elementos em linha (um ao lado do outro).  
+  - Com `flex-wrap: wrap`, os itens que não couberem na largura do container automaticamente "quebram" para a próxima linha, tornando o layout mais responsivo e adaptável a diferentes tamanhos de tela.
 ---
 ## CSS. 
 ---
