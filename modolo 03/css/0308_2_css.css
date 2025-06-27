@@ -1,0 +1,61 @@
+body {
+    font-family: arial;
+    margin: 0px
+}
+.titulo_aula {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin: 10px 10px;
+}
+p {
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+    margin: 10px 10px;
+}
+.paginas {
+    padding: 10px 30px 10px 30px;
+    background-color: #cac8c8f7;
+    gap:20px;
+}
+
+.botao_anterior {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(180, 15, 15);
+    border-radius: 5px;
+}
+
+.botao_proximo {
+    display : inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px 5px 5px 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    border-radius: 5px;
+}
+/* As coisas desta aula começam a partir daqui. */
+body {
+    height: 1200px;
+}
+div {
+    border: 2px solid #ccc;
+    padding: 20px 40px 80px 40px;
+    margin: 10px 20px;
+}
+span {
+    background-color: #e7e7e7e7;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    bottom: -500px;
+}
+

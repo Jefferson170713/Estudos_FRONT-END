@@ -53,6 +53,10 @@
   - Nesta aula, foi utilizado o `position: fixed` para fixar um elemento na tela, fazendo com que ele permaneça visível mesmo quando o usuário rola a página.  
   - As propriedades `top`, `right` e `left` definem a distância do elemento em relação às bordas da janela.  
   Esse recurso é útil para avisos, menus ou botões que precisam ficar sempre acessíveis
+  - __0308 Position 2__  
+  Nesta aula foi utilizado o `position: relative` em um elemento `<span>`, permitindo mover esse elemento em relação à sua posição original.  
+  Com a propriedade `bottom: -500px;`, o `<span>` é deslocado 500px para baixo dentro do seu container.  
+  O `position: relative` é útil para pequenos ajustes de posicionamento de elementos sem tirá-los do fluxo normal da página.
 ---
 ## CSS. 
 ---
