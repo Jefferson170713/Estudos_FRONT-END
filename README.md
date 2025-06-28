@@ -57,6 +57,8 @@
   Nesta aula foi utilizado o `position: relative` em um elemento `<span>`, permitindo mover esse elemento em relação à sua posição original.  
   Com a propriedade `bottom: -500px;`, o `<span>` é deslocado 500px para baixo dentro do seu container.  
   O `position: relative` é útil para pequenos ajustes de posicionamento de elementos sem tirá-los do fluxo normal da página.
+- __0309 Posicionamento Exercício 1 e 2__ - Vamos criar uma estrutura de site da bicicleta Bicraft.
+  - Parte 1: Criamos a estrutura básica do site, incluindo o cabeçalho, menu de navegação e conteúdo principal apenas em HTML.
 ---
 ## CSS. 
 ---
