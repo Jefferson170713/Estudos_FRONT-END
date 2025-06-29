@@ -60,6 +60,11 @@
 - __0309 Posicionamento Exercício 1 e 2__ - Vamos criar uma estrutura de site da bicicleta Bicraft.
   - Parte 1: Criamos a estrutura básica do site, incluindo o cabeçalho, menu de navegação e conteúdo principal apenas em HTML.
 ---
+#### __Módulo 04__
+- __0402 Pontos de Referência 2__ - Neste módulo, aprendemos sobre pontos de referência (landmarks) em HTML5, que são elementos semânticos como `nav`, `main`, `article` e `section`.  
+  - Esses elementos ajudam a estruturar melhor o conteúdo da página, tornando a navegação mais intuitiva e acessível, principalmente para pessoas que utilizam leitores de tela.  
+  - Também exploramos boas práticas para melhorar a acessibilidade e usabilidade das páginas, destacando a importância de uma navegação clara e organizada.
+---
 ## CSS. 
 ---
 #### __Módulo 02__.

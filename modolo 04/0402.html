@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/0402_css.css">
+    <title>0402 Pontos de Referência 2</title>
+</head>
+<body>
+    <h1 class="titulo-aula">0402 Pontos de Referência 2</h1>
+    <p class="texto-aula">
+        Nesta aula, você aprenderá a utilizar pontos de referência para criar uma estrutura de navegação mais intuitiva e acessível em suas páginas web. Os pontos de referência são elementos que ajudam os usuários a navegar facilmente pelo conteúdo, especialmente em páginas longas ou complexas.
+    </p>
+    <br>
+    <p class="texto-aula">
+        <strong>Objetivos:</strong>
+        <ul>
+            <li class="texto-aula">Compreender a importância dos pontos de referência na navegação web.</li>
+            <li class="texto-aula">Aprender a implementar pontos de referência usando HTML5.</li>
+            <li class="texto-aula">Explorar boas práticas para melhorar a acessibilidade e usabilidade das páginas.</li>
+        </ul>
+    </p>
+    <br>
+    <p class="texto-aula">
+        Exemplo que podemos ver as diferenças entre os pontos de referência e a navegação tradicional.
+        <br>
+        A navegação tradicional utiliza links comuns, enquanto os pontos de referência utilizam elementos semânticos como `nav`, `main`, `article`, e `section` para estruturar o conteúdo de forma mais clara e acessível.
+        
+    </p>
+    <nav class="primario" aria-label="Primária">
+        <a href="">Sobre</a>
+        <a href="">Contatos</a>
+    </nav>
+
+    <main>
+        <h2>Bicicleta Bicraft</h2>
+        <p>Teste Bike Bicraft</p>
+    </main>
+
+    <article aria-labelledby="sobrebike">
+        <h2 id="sobrebike">Sobre a Bicraft</h2>
+        <p>A empresa foi fundada em 2014.</p>
+    </article>
+
+    <section>
+        <h2>Sobre a Bicraft</h2>
+        <p>A empresa foi fundada em 2014.</p>
+    </section>
+</body>
+</html>
