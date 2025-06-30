@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+} 
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin: 10px;
+    background-color: aqua; 
+    border-radius: 10px;  
+    text-transform: uppercase;
+ }
+.titulo-aula {
+    font-size:35;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+}
+
+.texto-aula {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    padding: 20px;
+}
