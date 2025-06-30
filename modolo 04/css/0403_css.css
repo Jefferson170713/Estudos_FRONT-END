@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #333;
+    padding: 10px;
+}
+
+li {
+    font-size: 18px;
+    padding: 5px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.titulo-aula {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.texto-aula {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+}
+
+.filme-titulo {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}

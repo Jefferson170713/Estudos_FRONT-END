@@ -64,6 +64,13 @@
 - __0402 Pontos de Referência 2__ - Neste módulo, aprendemos sobre pontos de referência (landmarks) em HTML5, que são elementos semânticos como `nav`, `main`, `article` e `section`.  
   - Esses elementos ajudam a estruturar melhor o conteúdo da página, tornando a navegação mais intuitiva e acessível, principalmente para pessoas que utilizam leitores de tela.  
   - Também exploramos boas práticas para melhorar a acessibilidade e usabilidade das páginas, destacando a importância de uma navegação clara e organizada.
+- __0403 Listas__ - Nesta aula, aprendemos a criar e utilizar listas em HTML para organizar informações de forma clara e estruturada.  
+  Foram apresentados três tipos principais de listas:
+  - **Listas não ordenadas (`<ul>`)**: Usadas quando a ordem dos itens não importa, marcando cada item com um ponto.
+  - **Listas ordenadas (`<ol>`)**: Usadas quando a ordem dos itens é importante, numerando cada item automaticamente.
+  - **Listas de definição (`<dl>`, `<dt>`, `<dd>`)**: Usadas para apresentar termos e suas definições, como em glossários ou FAQs.
+
+  - Também foi mostrado como criar listas aninhadas, ou seja, listas dentro de listas, para organizar informações hierarquicamente (por exemplo, filmes e seus títulos).
 ---
 ## CSS. 
 ---
