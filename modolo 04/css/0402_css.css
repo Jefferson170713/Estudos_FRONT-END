@@ -26,6 +26,12 @@ a {
     padding: 20px;
     margin: 20px auto;
 }
+.texto-aula-02 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
 
 .primario {
     margin: 20px auto;
