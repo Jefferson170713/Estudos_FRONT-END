@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-aula {
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.texto-aula {
+    background: #f4f4f4f4;
+}
+
+body {
+    margin: 0px;
+}
+
+section {
+    width: 100%;
+    background : tomato;
+}
+
+div {
+    background: lightgreen;
+    width: 50%;
+    height: 100vh;
+}
+
