@@ -72,6 +72,16 @@
 
   - Também foi mostrado como criar listas aninhadas, ou seja, listas dentro de listas, para organizar informações hierarquicamente (por exemplo, filmes e seus títulos).
 ---
+
+#### __Módulo 05__
+
+- __0501 Unidades 1__ - Nesta aula, aprendemos sobre as diferentes unidades de medida em CSS e como elas afetam o layout dos elementos.  
+  Foram apresentadas duas unidades principais:
+  - **Pixels (`px`)**: Unidade absoluta e fixa. Um pixel sempre terá o mesmo tamanho, independentemente do tamanho da tela ou configurações do navegador. É ideal para elementos que precisam ter um tamanho específico e constante.
+  - **REM (`rem`)**: Unidade relativa baseada no tamanho da fonte do elemento raiz (`html`). Por padrão, 1rem equivale a 16px. É mais acessível e responsiva, pois se adapta às preferências do usuário e diferentes dispositivos.
+  
+  - No exemplo, comparamos dois conjuntos de elementos: um usando `24px` e `padding: 16px 32px`, e outro usando `1rem` e `padding: 1rem 2rem`. Isso demonstra como as unidades relativas (rem) tornam o design mais flexível e acessível, enquanto pixels oferecem controle preciso mas menos adaptabilidade.
+---
 ## CSS. 
 ---
 #### __Módulo 02__.
