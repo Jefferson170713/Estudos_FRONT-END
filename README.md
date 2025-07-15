@@ -81,6 +81,26 @@
   - **REM (`rem`)**: Unidade relativa baseada no tamanho da fonte do elemento raiz (`html`). Por padrão, 1rem equivale a 16px. É mais acessível e responsiva, pois se adapta às preferências do usuário e diferentes dispositivos.
   
   - No exemplo, comparamos dois conjuntos de elementos: um usando `24px` e `padding: 16px 32px`, e outro usando `1rem` e `padding: 1rem 2rem`. Isso demonstra como as unidades relativas (rem) tornam o design mais flexível e acessível, enquanto pixels oferecem controle preciso mas menos adaptabilidade.
+
+- __0503 Background 1__ - Nesta aula, aprendemos sobre as propriedades de background em CSS e como aplicar imagens de fundo de forma eficiente.  
+  Foram apresentadas as principais propriedades de background:
+  - **background-color**: Define uma cor sólida como fundo (exemplo: `lightblue`).
+  - **background-image**: Permite usar uma imagem como fundo usando `url()`.
+  - **background-repeat**: Controla se a imagem se repete ou não (`no-repeat` evita repetição).
+  - **background-size**: Define o tamanho da imagem de fundo (`cover` faz a imagem cobrir todo o elemento).
+  - **background-position**: Posiciona a imagem no elemento (`center top` centraliza horizontalmente e alinha ao topo).
+  
+  - O exemplo demonstra como criar um elemento com 600px de altura usando uma imagem de bicicleta como fundo, com propriedades otimizadas para responsividade. A combinação dessas propriedades permite criar layouts visuais atraentes e profissionais.
+  
+- __0503 Background 2__ - Nesta aula, expandimos o conhecimento sobre backgrounds em CSS, introduzindo os gradientes lineares como alternativa às imagens e cores sólidas.  
+  Foram apresentados os seguintes conceitos:
+  - **Revisão das propriedades de background**: Reforçamos o uso de `background-image`, `background-size: cover`, `background-position` e `background-repeat: no-repeat` para imagens de fundo.
+  - **Linear Gradient**: Introdução aos gradientes lineares usando `linear-gradient()`.
+    - **Sintaxe**: `background: linear-gradient(direção, cor1, cor2)`.
+    - **Exemplo**: `linear-gradient(to right, lightblue, pink)` cria um gradiente horizontal da esquerda para direita.
+    - **Direções**: `to right`, `to left`, `to top`, `to bottom` ou ângulos em graus.
+  
+  - O exemplo demonstra a comparação entre uma imagem de fundo tradicional e um gradiente linear moderno, mostrando como ambos podem ser usados para criar elementos visuais atraentes de 600px de altura com flexbox para centralizar o conteúdo.
 ---
 ## CSS. 
 ---

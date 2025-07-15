@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-aula {
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.texto-aula {
+    background: #f4f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.bicicleta {
+    height: 600px;
+    background-color: lightblue;
+    background-image: url('../../0216-imagens/img/bicicleta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+}
+
+h2 {
+    margin: auto;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+.linear {
+    height: 600px;
+    background: linear-gradient(to right, lightblue, pink);
+    display: flex;
+}
