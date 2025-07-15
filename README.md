@@ -81,6 +81,16 @@
   - **REM (`rem`)**: Unidade relativa baseada no tamanho da fonte do elemento raiz (`html`). Por padrão, 1rem equivale a 16px. É mais acessível e responsiva, pois se adapta às preferências do usuário e diferentes dispositivos.
   
   - No exemplo, comparamos dois conjuntos de elementos: um usando `24px` e `padding: 16px 32px`, e outro usando `1rem` e `padding: 1rem 2rem`. Isso demonstra como as unidades relativas (rem) tornam o design mais flexível e acessível, enquanto pixels oferecem controle preciso mas menos adaptabilidade.
+
+  - __0503 Background 1__ - Nesta aula, aprendemos sobre as propriedades de background em CSS e como aplicar imagens de fundo de forma eficiente.  
+  Foram apresentadas as principais propriedades de background:
+  - **background-color**: Define uma cor sólida como fundo (exemplo: `lightblue`).
+  - **background-image**: Permite usar uma imagem como fundo usando `url()`.
+  - **background-repeat**: Controla se a imagem se repete ou não (`no-repeat` evita repetição).
+  - **background-size**: Define o tamanho da imagem de fundo (`cover` faz a imagem cobrir todo o elemento).
+  - **background-position**: Posiciona a imagem no elemento (`center top` centraliza horizontalmente e alinha ao topo).
+  
+  - O exemplo demonstra como criar um elemento com 600px de altura usando uma imagem de bicicleta como fundo, com propriedades otimizadas para responsividade. A combinação dessas propriedades permite criar layouts visuais atraentes e profissionais.
 ---
 ## CSS. 
 ---
