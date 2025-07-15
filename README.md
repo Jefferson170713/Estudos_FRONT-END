@@ -101,6 +101,20 @@
     - **Direções**: `to right`, `to left`, `to top`, `to bottom` ou ângulos em graus.
   
   - O exemplo demonstra a comparação entre uma imagem de fundo tradicional e um gradiente linear moderno, mostrando como ambos podem ser usados para criar elementos visuais atraentes de 600px de altura com flexbox para centralizar o conteúdo.
+
+- __0504 Pseudo Classes 1__ - Nesta aula, aprendemos sobre pseudo-classes em CSS, que permitem aplicar estilos a elementos com base em seu estado ou interação do usuário.  
+  Foram apresentados os seguintes conceitos:
+  - **Pseudo-classe :hover**: Aplica estilos quando o usuário passa o mouse sobre um elemento.
+  - **Transições CSS**: Usando a propriedade `transition` para criar animações suaves entre estados.
+    - **Sintaxe**: `transition: propriedade duração` ou `transition: duração` para todas as propriedades.
+    - **Exemplo**: `transition: 1.2s, color 1.2s` cria transições de 1.2 segundos para background e cor.
+  
+  - No exemplo, criamos um link com estilo de botão que muda de aparência ao passar o mouse:
+    - **Estado normal**: Fundo claro (`#caf`), texto azul, borda roxa.
+    - **Estado hover**: Fundo azul, texto branco, borda clara.
+    - **Transição suave**: Animação de 1.2 segundos entre os estados, melhorando a experiência do usuário.
+
+    
 ---
 ## CSS. 
 ---

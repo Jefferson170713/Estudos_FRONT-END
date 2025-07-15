@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-aula {
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.texto-aula {
+    background: #f4f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+main {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modification {
+    padding: 1rem 2rem;
+    margin: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #caf;
+    color: blue;
+    border:1px rgb(138, 71, 240) solid;
+    border-radius: 5px;
+    transition: 1.2s, color 1.2s;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+    border: #caf solid 1px;
+}
