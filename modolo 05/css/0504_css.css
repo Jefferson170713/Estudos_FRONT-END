@@ -15,9 +15,11 @@ body {
     padding: 20px;
     line-height: 1.6;
 }
-main {
+main section{
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    gap: 20px
 }
 
 .modification {
@@ -29,11 +31,42 @@ main {
     color: blue;
     border:1px rgb(138, 71, 240) solid;
     border-radius: 5px;
-    transition: 1.2s, color 1.2s;
+    transition: 0.5s, color 0.5s;
 }
 
 a:hover {
     background-color: blue;
     color: white;
     border: #caf solid 1px;
+}
+
+
+.lista-1 li:first-child {
+    background-color: #caf;
+    padding: 5px;
+}
+
+.lista-1 li {
+    background-color: #ffa;
+    padding: 5px;
+}
+
+.lista-2 li:nth-child(2n) {
+    background-color: #ffa;
+    padding: 5px;
+}
+
+.lista-2 li {
+    background-color: #cfa;
+    padding: 5px;
+}
+
+.lista-3 li:last-child {
+    background-color: #ffa;
+    padding: 5px;
+}
+
+.lista-3 li {
+    background-color: #cfa;
+    padding: 5px;
 }
