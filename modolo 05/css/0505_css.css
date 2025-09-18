@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Deixando o links um abaixo do outro para não ocupar a linha inteira*/
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.link-before {
+    border: 2px solid transparent;
+}
+.link-after {
+    border: 2px solid transparent;
+}
+
+.link-before::before {
+    content: "➔ ";
+    color: white;
+} 
+.link-after::after {
+    content: " ➔";
+    color: white;
+} 
+
+.link-before:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.link-after:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+}
