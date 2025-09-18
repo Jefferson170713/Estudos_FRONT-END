@@ -119,6 +119,21 @@
     - Usamos `.lista-1 li:first-child` para estilizar apenas o primeiro item da lista ordenada.
     - Com `.lista-2 li:nth-child(2n)`, aplicamos estilos aos itens pares de uma lista não ordenada.
     - Já `.lista-3 li:last-child` destaca o último item da lista.
+  
+  - __0505 Pseudo Elementos__ - Nesta aula, aprendemos sobre pseudo-elementos em CSS, que permitem estilizar partes específicas de um elemento sem alterar o HTML.  
+  Foram apresentados os principais pseudo-elementos:
+  - **::before**: Adiciona conteúdo antes do conteúdo real do elemento.
+  - **::after**: Adiciona conteúdo após o conteúdo real do elemento.
+  - **::first-letter**: Estiliza a primeira letra do conteúdo de um elemento.
+  - **::first-line**: Estiliza a primeira linha do conteúdo de um elemento.
+
+  - **Exemplo prático:**
+    - Usamos `.link-before::before` para adicionar uma seta antes do texto do link, e `.link-after::after` para adicionar uma seta depois do texto.
+    - O conteúdo é inserido via CSS com a propriedade `content`, sem precisar modificar o HTML.
+    - Também vimos como estilizar a primeira letra de um título com `h1::first-letter` e a primeira linha de um parágrafo com `p::first-line`.
+    - Para evitar que o link aumente de tamanho ao passar o mouse, definimos a borda como `border: 2px solid transparent;` no estado normal e mudamos para `border: 2px solid black;` no hover, garantindo que o espaço da borda já esteja reservado.
+
+  - Esses pseudo-elementos são úteis para criar efeitos visuais, destacar partes do texto e adicionar detalhes estilísticos, mantendo o código HTML limpo e semântico.
 ---
 ## CSS. 
 ---
