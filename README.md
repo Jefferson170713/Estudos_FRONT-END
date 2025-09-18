@@ -114,8 +114,11 @@
     - **Estado normal**: Fundo claro (`#caf`), texto azul, borda roxa.
     - **Estado hover**: Fundo azul, texto branco, borda clara.
     - **Transição suave**: Animação de 1.2 segundos entre os estados, melhorando a experiência do usuário.
-
-    
+  
+  - **Exemplo prático:**
+    - Usamos `.lista-1 li:first-child` para estilizar apenas o primeiro item da lista ordenada.
+    - Com `.lista-2 li:nth-child(2n)`, aplicamos estilos aos itens pares de uma lista não ordenada.
+    - Já `.lista-3 li:last-child` destaca o último item da lista.
 ---
 ## CSS. 
 ---
