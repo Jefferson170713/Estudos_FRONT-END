@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/0505_css.css">
+    <title>0505 Pseudo Elements</title>
+</head>
+<body>
+    <h1>0505 Pseudo Elements</h1>
+    <p>Os pseudo-elementos em CSS são usados para estilizar partes específicas de um elemento, permitindo a criação de efeitos visuais adicionais sem a necessidade de adicionar elementos extras ao HTML. Eles são representados por dois pontos (::) seguidos do nome do pseudo-elemento.</p>
+    <h2>Principais Pseudo-Elementos</h2>
+    <ul>
+        <li><strong>::before</strong>: Adiciona conteúdo antes do conteúdo real do elemento.</li>
+        <li><strong>::after</strong>: Adiciona conteúdo após o conteúdo real do elemento.</li>
+        <li><strong>::first-letter</strong>: Estiliza a primeira letra do conteúdo de um elemento.</li>
+        <li><strong>::first-line</strong>: Estiliza a primeira linha do conteúdo de um elemento.</li>
+    </ul>
+
+    <h2>Exemplos de Uso</h2>
+    <div class="link">
+        <a href="" class="link-before">Teste sem before</a>
+        <a href="" class="">Teste</a>
+        <a href="" class="link-after">Teste after</a>
+    </div>
+
+    
+    <pre><code>
+        /* Adiciona uma seta antes de cada link */
+        a::before {
+            content: "➔ ";
+            color: blue;
+        }   
+    </code></pre>
+
+    <pre><code>
+        /* Adiciona uma seta antes de cada link */
+        a::after {
+            content: " ➔";
+            color: blue;
+        }   
+    </code></pre>
+
+    <pre><code>
+        /* Adiciona um rodapé estilizado após um parágrafo */
+        p::after {
+            content: " - Fim do parágrafo";
+            font-style: italic;
+            color: gray;
+        }
+    </code></pre>
+
+    <pre><code>
+        /* Estiliza a primeira letra de um título */
+        h1::first-letter {
+            font-size: 200%;
+            color: red;
+            font-weight: bold;
+        }
+    </code></pre>
+
+    <pre><code>
+        /* Estiliza a primeira linha de um parágrafo */
+        p::first-line {
+            font-variant: small-caps;
+            color: green;
+        }
+    </code></pre>
+
+    <h2>Considerações Finais</h2>
+    <p>Os pseudo-elementos são ferramentas poderosas para aprimorar a apresentação visual dos elementos HTML. Eles permitem adicionar detalhes estilísticos sem a necessidade de modificar a estrutura do HTML, mantendo o código limpo e semântico.</p>
+</body>
+</html>
