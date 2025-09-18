@@ -1,6 +1,7 @@
 # Ignorar arquivos .png
 *.png
 *.jpg
+.vscode/
 
 
 # Ignorar arquivos .svg
