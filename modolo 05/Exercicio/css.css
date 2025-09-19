@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: #f7f7f7;
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    display: block;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.menu a:hover {
+    border-color: #000;
+    transition: border-color 0.5s;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    border-radius: 15px;
+}
+
+.introducao {
+    background: #ffffff;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+    justify-items: end;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background: #ee2211;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.botao {
+    background: #ee2211;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* .subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+} */
+
+/* .vantagens {
+    background: #ffffff;
+    padding: 40px;
+} */
+
+/* .vantagens-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+} */
+
+/* .vantagens-item p {
+    grid-column: 2;
+} */
+
+.rodape {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Feito por mim*/
+
+/* .icone {
+    color:#ee2211;
+} */
